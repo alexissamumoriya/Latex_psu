@@ -44,77 +44,12 @@ A partir do diagrama de fases obtido, evidencia-se a formação da linha \textit
 
 \subsection{Sistema 2: Ácido Palmítico e Ácido Esteárico}\label{sistema3}
 
-Na mistura do ácido palmítico e ácido esteárico Figura \ref{fig:1}, é possível verificar a presença apenas do ponto eutético na fração da mistura em 0,8 para o ácido palmítico e 0,2 para o ácido esteárico, em que $MA$, $MS$ e $Wilson$ representam respectivamente os parâmetros de Margules Assimétrico, Margules Simétrico e Wilson, a método de DSC é de COSTA \textit{at al.} 2009.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.06\linewidth 
-	%,height=0.4\textheight
-	]{dados/figuras/Palmitico_estearico_MA.png}
-	\caption[Diagrama do equilíbrio sólido-líquido para mistura ácido palmítico e ácido esteárico]{Diagrama do equilíbrio sólido-líquido para mistura ácido palmítico(1) e ácido esteárico(2) (\textit{PyCharm}/\textit{R})}
-	\label{fig:1}
-\end{figure}
+
 
 Com a definição dos pares ordenados para composição de mistura e temperatura,  foi possível obter a linha \textit{liquidus} praticamente sobreposta aos dados experimentais comparativos próximos as composições de substância pura, em que visualmente o modelo de Margules Assimétrico tem maior proximidade aos dados experimentais. Quanto a inclinação das curvas definidas pelas regiões calculadas, são apresentadas inclinações equivalentes aos dados experimentais.  Ressalta-se a importância de modelos teórico/computacionais apresentarem, pela aplicação dos modelos termodinâmicos adequados, a capacidade de predição de formação do ponto eutético.
 
-\subsection{Sistema 3: Hexadecanol e Ácido Mirístico}\label{sistema4}
 
-Na Figura \ref{fig:5} mostra o comportamento da mistura de álcool$+$ácido graxo, com os compostos hexadecanol e ácido mirístico, cujo o método de DSC é do artigo \cite{Mailhe2020}.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.06\linewidth 
-	%,height=0.4\textheight
-	]{dados/figuras/Hexadecanol_Miristico_DSC.png}
-	\caption[Diagrama do equilíbrio sólido-líquido para mistura Hexadecanol e Ácido Mirístico]{Diagrama do equilíbrio sólido-líquido para mistura Hexadecanol(1) e Ácido Mirístico(2) (\textit{PyCharm}/\textit{R})}
-	\label{fig:5}
-\end{figure}
 
-Verifica-se que a mistura álcool$+$ácido a formação da linha \textit{liquidus}, que é inovador para os modelos matemáticos aplicados apenas para misturas graxas, a sobreposição dos diagramas não foi satisfatória em sua plenitude, por outro lado o modelo trabalha em buscar a linha \textit{liquidus} que é bem representada pelo modelo termodinâmico, indicando o ponto eutético para todos os modelos aproximadamente em 0,6 que segue com a técnica de DSC.
-
-\subsection{Sistema 4: Hexadecanol e Tetradecanol}\label{sistema5}
-A Figura \ref{fig:2}, foi obtida a partir do modelos termodinâmicos de Margules Assimétrico, Margules Simétrico e Wilson, implementado no \textit{GAMS} e plotado pelo \textit{PyCharm} com a biblioteca do \textit{R}, os dados de DSC seguem do artigo \cite{Maximo2014}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.06\linewidth 
-	%,height=0.4\textheight
-	]{dados/figuras/Hexadecanol_Tetradecanol.png}
-	\caption[Diagrama do equilíbrio sólido-líquido para mistura Hexadecanol e Tetradecanol]{Diagrama do equilíbrio sólido-líquido para mistura Hexadecanol(1) e Tetradecanol(2) (\textit{PyCharm}/\textit{R})}
-	\label{fig:2}
-\end{figure}
-
-De maneira análoga, a linha \textit{liquidus} apresenta proximidade satisfatória aos pontos experimentais, tendo maior evidência no intervalo de composições entre 0 e 0,3 e de 0,9 a 1,0 para o Hexadecanol; ainda, no intervalo de 0,4 e 0,8  nota-se um maior distanciamentos dos valores calculados comparados aos experimentais. O ponto eutético ocorre nas proximidades da composição de 0,6 para a misturas hexadecanol e 0,4 de tetradecanol. Vale relevar que esta modelagem matemática aplicada a compostos pertencentes ao grupamento de álcoois tem caráter inédito e inovador, visto que os modelos aqui descritos haviam sido usados apenas para obtenção de diagramas de fase sólido-líquido para sistemas compostos por ácidos graxos e ésteres.
-
-\subsection{Sistema 5: Ácido Esteárico e Ácido Linoleico}\label{sistema6}
-
-A Figura \ref{fig:18}, representa o diagrama de fase das misturas graxas ácido esteárico e ácido linoleico, os valores de DSC vem do artigo \cite{Eckert2016}.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.06\linewidth 
-	%,height=0.4\textheight
-	]{dados/figuras/Estearico+linoleico.png}
-	\caption[Diagrama do equilíbrio sólido-líquido para mistura Ácido Esteárico e Ácido Linoleico]{Diagrama do equilíbrio sólido-líquido para mistura Ácido Esteárico(1) e Ácido Linoleico(2) (\textit{R})}
-	\label{fig:18}
-\end{figure}
-
-A motivação da busca e obtenção do diagrama de fases sólido-líquido deste sistema \ref{sistema6} e do sistema \ref{sistema7} ocorre pela presença do ácido Linoléico na mistura. Na mistura multicomponente que é o biodiesel, esse composto apresenta-se como majoritário na composição das possibilidades de biodieseis descritos anteriormente.
-
-Na obtenção no diagrama de fases descrito pela aplicação da modelagem matemática sugerida, percebe-se dois tipos de comportamento nos três diferentes modelos termodinâmicos: Para MA e MS, os pontos numericamente estão mais próximos aos experimentais, porém a inclinação da curva formada não é compatível ao comportamento experimental esperado, mais evidente no MA; para Wilson, o perfil encontrado é equivalente ao experimental, mesmo distante dos pontos experimentais em uma diferença de aproximadamente 2K. A partir da composição 0,8 para esteárico, os pontos passam a apresentar perfil semelhante para todos modelos estudados, e o ponto eutético ocorre próximo a composição de ácido esteárico puro.
-
-\subsection{Sistema 6: Ácido Palmítico e Ácido Linoleico}\label{sistema7}
-
-A Figura \ref{fig:19} mostra o diagrama de fase das misturas graxas ácido palmítico e ácido linoleico, os valores de DSC vem do artigo \cite{Eckert2016}.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.06\linewidth 
-	%,height=0.4\textheight
-	]{dados/figuras/Palmitic+Linoleic.png}
-	\caption[Diagrama do equilíbrio sólido-líquido para mistura Ácido Palmítico e Ácido Linoleico]{Diagrama do equilíbrio sólido-líquido para mistura Ácido Palmítico(1) e Ácido Linoleico(2) (\textit{R})}
-	\label{fig:19}
-\end{figure}
-
-A partir do diagrama de fase pode verificar que o modelo de Wilson não foi capaz de representar a técnica de DSC, o modelo de MS fica também fora do experimento com uma representação não satisfatória, o modelo de MA tem maior proximidade com o experimento no entanto não é uma boa representação. Dessa forma podendo perceber que, para diagramas com a técnica de DSC sem a formação de pontos eutético e peritético, os modelos de Wilson, MA e MS tem dificuldades em representar o diagrama de fase.
 
 \section{Coeficiente de Determinação}
 
